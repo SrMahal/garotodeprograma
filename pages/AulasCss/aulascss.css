@@ -10,17 +10,4 @@ body{
 
 section{
     background-color: aliceblue;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 20px;
-}
-
-h1{
-    
-    padding: 0px 10px;
-}
-
-p{
-    margin: 20px;
-    padding: 5px;
 }
