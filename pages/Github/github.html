@@ -38,6 +38,27 @@
     </section>
     <section>
         <h1>Github Clone</h1>
+        <p>para clonar um projeto no github</p>
+        <p> git clone "link do projeto"</p>
     </section>
+    <Section>
+        <h1> Error não link ao projeto</h1>
+        <p>
+            O erro ocorre porque a branch main do seu repositório local não está vinculada a um repositório remoto. Para corrigir isso, siga os passos abaixo:
+        </p>
+        <h3>1. Confirme que você tem um repositório remoto vinculado</h3>
+        <p>Digite o seguinte comando no terminal:</p>
+        <p> git remote -v</p>
+        <p>Se não aparecer nada, você precisa adicionar o repositório remoto com:</p>
+        <p>git remote add origin "/URL_DO_SEU_REPOSITORIO" </p>
+        <h3>2. Configure o upstream e envie os arquivos para o repositório</h3>
+        <p>Como o Git sugere na mensagem de erro, você pode rodar o comando:</p>
+        <p>git push --set-upstream origin main </p>
+        <p>Isso define o repositório remoto e a branch main como padrão para futuros git push.</p>
+        <h3>3. Caso já tenha o remoto configurado</h3>
+        <p>Se o repositório já estiver vinculado (o comando git remote -v mostrar um repositório válido), tente:</p>
+        <p>git push -u origin main</p>
+        <p>Depois disso, os próximos git push podem ser feitos normalmente sem precisar definir o upstream novamente.</p>
+    </Section>
 </body>
 </html>
