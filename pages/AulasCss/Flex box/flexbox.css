@@ -1,0 +1,31 @@
+body{
+    margin-bottom: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.flexbox {
+    margin: 100px;
+    height: 250%;
+    border: 5px solid red;
+    background-color: rgb(40, 40, 40);
+    border-radius: 30px;
+    display: flex;
+    margin-bottom: 16px;
+    justify-content: space-evenly;
+    /*align-items: center;*/
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
+.flexbox div {
+    border: 2px solid orange;
+    color: beige;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.flexbox-container1{}
