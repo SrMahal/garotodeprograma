@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+section{
+    background-color: aliceblue;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 20px;
+}
+
+h1{
+    padding: 15px 0px;
+}
+
+button{
+    margin-top: 25px;
+    background-color: tomato;
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(182, 0, 0);
+}

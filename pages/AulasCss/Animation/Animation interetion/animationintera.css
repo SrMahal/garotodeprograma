@@ -1,0 +1,19 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    transition: 1s;
+    padding: 10px;
+}
+
+img:hover{
+    transform: scale(1.5);
+}

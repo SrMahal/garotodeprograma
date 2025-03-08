@@ -1,0 +1,15 @@
+img{
+    width: 100px;
+    transform: rotate(90deg);
+    animation: animaframes 2s;
+}
+
+@keyframes animaframes{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
