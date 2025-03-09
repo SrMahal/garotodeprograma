@@ -1,27 +1,42 @@
 /*COnfig menu*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(198, 214, 228);
+    font-family: Poppins;
+}
+
 .menu{
     background-color: #111;
+    position: relative;
     display: flex;
     font-size: 20px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 12px 30px;
 }
+
 .titlelogo{
     display: flex;
 }
 .titlesite{
-    color: aliceblue;
+    color: tomato;
 }
 
-.html{
+.imghtml{
     position: relative;
-    width: 20px;
+    width: 50px;
+    height: 50px;
 }
 
-.css{
+.imgcss{
     position: relative;
-    width: 20px;
+    width: 50px;
+    height: 50px;
 }
 
 a{
@@ -29,10 +44,11 @@ a{
     padding: 0px 10px;
     color: aliceblue;
     transition: background-color 0.3s ease;
+    font-family: Poppins;
 }
 
 a:hover{
-    color: #333;
+    color: tomato;
 }
 
 .meubotao{
@@ -48,4 +64,5 @@ a:hover{
 
 .meubotao:hover{
     background-color: rgb(134, 48, 33);
+    border-radius: 20%;
 }

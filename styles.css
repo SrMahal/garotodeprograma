@@ -3,7 +3,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+
     background-color: rgb(198, 214, 228);
     font-family: Poppins;
 }
@@ -44,7 +44,8 @@ body{
     width: 350px;
     position: absolute;
     right: 5%;
-    top: 30%;
+    top: 35%;
+    font-family: Poppins;
     font-size: 20px;
     line-height: 1.5;
 }
@@ -52,7 +53,7 @@ body{
 /*mask image*/
 .card-image{
     -webkit-mask: url("/assets/top-center.png") center / contain no-repeat, url("/assets/bottom-right.png") center / contain no-repeat, linear-gradient(#000000 0 0);
-    mask-size: 22rem, 30rem;
+    mask-size: 25rem, 30rem;
     mask-position: top center, bottom right;
     mask-composite: exclude;
 }
@@ -76,44 +77,9 @@ body{
     margin: 0 auto;
 }
 .top-center .text{
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 600;
     text-overflow: uppercase;
     
-}
-
-/*SESSÂO 2*/
-.title-itens{
-    background-color: tomato;
-    padding: 10px;
-    height: 20px;
-}
-.containa{
-    background-color: #111;
-    color: aliceblue;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100px;
-    margin: 25px;
-    padding: 20px;
-    border-radius: 20px;
-}
-.caixa{
-    background-color: tomato;
-    width: 100px;
-    height: 100px;
-    border-radius: 20px;
-    display: flex; /* Centraliza */
-    align-items: center; /* direciona */
-    justify-content: center; /* direciona */
-    font-size: 18px;
-    font-weight: bold;
-    transition: 0.3s ease;
-    text-align: center;
-}
-
-.caixa:hover{
-    transform: scale(1.2);
 }
 
