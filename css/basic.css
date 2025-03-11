@@ -1,13 +1,15 @@
 body{
-    background-color: rgb(198, 214, 228);
+    /*background-color: rgb(198, 214, 228);*/
+    background-color: rgb(48, 48, 48);
     font-family: Poppins;
 }
 
 section{
-    background-color: aliceblue;
+    /*background-color: rgb(198, 214, 228);*/
     margin: 5%;
     padding: 5%;
     border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 
     /*animate*/
 

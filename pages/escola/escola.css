@@ -57,10 +57,37 @@ body{
     margin: 10px 10px;
     border-radius: 25px;
     padding: 20px;
+    transition: 0.3s ease;
+
+}
+
+.box:hover{
+    transform: scale(1.1);
 }
 
 .boxtxt{
     color: white;
-    
+}
+
+.boxtxt h1{
+    text-align: center;
+}
+
+.boxtxt p{
+    text-align: center;
+    max-width: 200px;    
+}
+
+.boxtxt button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #111;
+    color: white;
+    cursor: pointer;
 }
 

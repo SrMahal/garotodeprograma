@@ -1,0 +1,136 @@
+*body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.animate{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+/*PAGINA 2 HTML*/
+.box2{
+    background-image: linear-gradient(to right, #3f3f3f, #2b2b2b);
+    position: absolute;
+    top: 100px;
+    left: 450px;
+    width: 1000px;
+    height: 600px;
+    clip-path: inset(0px 0px round 50px 50px);    
+}
+
+.boxtxt{
+    display: flex;
+    align-items: center;
+}
+.box2 img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.boxlayout2{
+    background-image: linear-gradient(to right, rgb(255, 128, 0), rgb(134, 94, 13));
+    position: absolute;
+    width: 100vh;
+    height: 15px;
+    top: 0px;
+    left: -30px;
+}
+
+/*PAGINA 3 JAVASCRIPT*/
+.box1{
+    background-image: linear-gradient(to right, #3f3f3f, #2b2b2b);
+    position: absolute;
+    left: 300px;
+    width: 1000px;
+    height: 600px;
+    clip-path: inset(0px 0px round 50px 50px);  
+    
+    /*animações*/
+    animation: box1 1ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 70%;
+}
+
+.box1 img{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+.boxlayout1{
+    background-image: linear-gradient(to right, #e0d426, #61500b);
+    position: absolute;
+    width: 100vh;
+    height: 15px;
+    top: 0px;
+    left: -30px;    
+}
+
+
+@keyframes box1 {
+    0%{
+        left: 450px;
+        top: 100px;
+    }
+    100%{
+        left: 300px;
+        top: 0px;
+    }
+}
+
+
+/*PAGINA 1 CSS */
+.box3{
+    background-image: linear-gradient(to right, #414141, #2b2b2b);
+    position: absolute;
+    left: 650px;
+    top: 200px;
+    width: 1000px;
+    height: 600px;
+    clip-path: inset(0px 0px round 50px 50px); 
+
+    /*animações
+    box-shadow: -10px -10px 40px rgba(0, 0, 0, 0.5);
+    */
+    animation: box3 1ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 70%;
+}
+
+.box3 img{
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+}
+
+.boxlayout3{
+    background-image: linear-gradient(to right, #2a2aa5, #0b0b61);
+    position: absolute;
+    width: 100vh;
+    height: 15px;
+    top: 0px;
+    left: -30px;    
+}
+
+
+@keyframes box3 {
+    0%{
+        left: 450px;
+        top: 100px;
+    }
+    100%{
+        left: 650px;
+        top: 200px;
+        
+    }
+}
+
+.boxtxt{
+    margin: 25px;
+    font-size: 25px;
+    color: #bbbbbb;
+}

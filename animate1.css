@@ -1,0 +1,19 @@
+/*PAGINA 3 JAVASCRIPT*/
+.box11{
+    background-image: linear-gradient(to right, #414141, #2b2b2b);
+    position: absolute;
+    left: 300px;
+    width: 1000px;
+    height: 600px;
+    clip-path: inset(0px 0px round 50px 50px);  
+}
+
+
+.boxlayout11{
+    background-image: linear-gradient(to right, #a52a2a, #610b0b);
+    position: absolute;
+    width: 100vh;
+    height: 0px;
+    top: 0px;
+    left: 0px;    
+}

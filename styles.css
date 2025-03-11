@@ -1,4 +1,5 @@
-*{
+body{
+    background-color: #0f0f0f;
     margin: 0;
 }
 
@@ -77,3 +78,8 @@
     
 }
 
+/*Parte 01*/
+
+.parte1{
+    height: 20vh;
+}
