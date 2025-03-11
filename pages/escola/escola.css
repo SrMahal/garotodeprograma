@@ -8,7 +8,7 @@ body{
     font-family: Poppins;
 }
 
-/*SESSÂO 2*/
+/*SESSÂO 1*/
 .title-itens{
     background-color: tomato;
     padding: 10px;
@@ -41,5 +41,26 @@ body{
 
 .caixa:hover{
     transform: scale(1.2);
+}
+
+/*SESSÂO 2*/
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.box{
+    background-color: rgb(184, 184, 184);
+    margin: 10px 10px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.boxtxt{
+    color: white;
+    
 }
 

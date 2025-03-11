@@ -68,15 +68,16 @@ a:hover{
 .meubotao{
     background-color: tomato;
     color: aliceblue;
-    padding: 10px 30px;
+    padding: 10px 40px;
     font-size: 18px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color, border-radius 1.5s ease;
+    margin-bottom: 15px;
 }
 
 .meubotao:hover{
     background-color: rgb(134, 48, 33);
-    border-radius: 20%;
+    border-radius: 25px;
 }
