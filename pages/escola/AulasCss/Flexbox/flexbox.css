@@ -10,19 +10,24 @@ body {
 
 .container{
     background-color: rgb(233, 233, 233);
+    width: 100vw;
+    height: 600px;
     padding: 10px;
     display: flex;
-    
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 20px;
+
 }
 
 
 
 .item{
     background-color: blueviolet;
-    margin: 10px;
     color: yellow;
     font-size: 22px;
-    width: 100px;
-    height: 100px;
+    width: 350px;
+    height: 350px;
     border-radius: 10px;
+    flex-grow: 1;
 }
